@@ -1,12 +1,10 @@
 import { Button } from '@/components/ui/button'
-import React from 'react'
+import prisma from '@/lib/db'
 
-type Props = {}
-
-const page = (props: Props) => {
+const page =  () => {
   return (
     <div className='min-h-screen min-w-screen flex justify-center items-center'>
-      <Button variant={'destructive'}>Hello</Button>
+      <Button>Click</Button>
     </div>
   )
 }
